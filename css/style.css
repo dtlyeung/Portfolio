@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+};
+
+header h1 {
+    color: navy;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    color:lightblue;
+    margin: 7px 0;    
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+section h2 {
+    color:navy;
+}
+
+section a {
+    text-decoration:underline;
+    
+}
