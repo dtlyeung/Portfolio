@@ -8,5 +8,7 @@ This portfolio is being built with:
 
 ##Links
 To view the portfolio, visit either 
+
 Deployed 
+
 Github Repo
