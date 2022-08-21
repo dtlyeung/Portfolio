@@ -1,48 +1,70 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-weight: bold;
+    color:navy;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
     background-color: lightgray;
-    margin: 0;
-};
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 header h1 {
-    color: navy;
-    font-weight: bold;
-    font-size: 36px;
     margin: 0;
-    display: inline;
+    justify-content: center;
+    font-weight: bold;   
 }
 
-header a {
-    text-decoration: none;
-}
-
-header nav {
-    float: right;
-    color:lightblue;
-    margin: 7px 0;    
-}
-
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
+    padding: 25px;
 }
 
-section h2 {
-    color:navy;
+.aboutcontents, .worksamples, .contact-container {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-between;
 }
 
-section a {
-    text-decoration:underline;
-    
+.about-me h2, .work h2, .contact-container h2 {
+    flex-wrap: wrap;
+    float:left;
+    align-items: right;
+    justify-content: right;
 }
+
+.PodsParks {
+    background-image: url(/img/Pods-and-Parks.jpg);
+}
+
+.LED-img {
+    background-image: url(/img/placeholder150.png);
+}
+
+.Calculator-img {
+    background-image: url(/img/placeholder150.png);
+}
+
+.pastel-img {
+    background-image: url(/img/placeholder150.png);
+}
+
+.Run-img {
+    background-image: url(/img/placeholder150.png);
+}
+
