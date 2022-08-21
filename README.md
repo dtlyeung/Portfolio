@@ -11,7 +11,9 @@ This portfolio is being built with:
 
 To view the portfolio, visit either 
 
-Deployed 
+Deployed
+
+https://dtlyeung.github.io/Portfolio/
 
 Github Repo
 
