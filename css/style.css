@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:navy;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    justify-content: center;
+    font-weight: bold;   
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav ul li a {
+    padding: 25px;
+}
+
+.aboutcontents, .worksamples, .contact-container {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.about-me h2, .work h2, .contact-container h2 {
+    flex-wrap: wrap;
+    float:left;
+    align-items: right;
+    justify-content: right;
+}
+
+.PodsParks {
+    background-image: url(/img/Pods-and-Parks.jpg);
+}
+
+.LED-img {
+    background-image: url(/img/placeholder150.png);
+}
+
+.Calculator-img {
+    background-image: url(/img/placeholder150.png);
+}
+
+.pastel-img {
+    background-image: url(/img/placeholder150.png);
+}
+
+.Run-img {
+    background-image: url(/img/placeholder150.png);
+}
+
