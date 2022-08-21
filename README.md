@@ -8,6 +8,7 @@ This portfolio is being built with:
 - CSS
 
 ##Links
+
 To view the portfolio, visit either 
 
 Deployed 
