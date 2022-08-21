@@ -14,3 +14,5 @@ To view the portfolio, visit either
 Deployed 
 
 Github Repo
+
+https://github.com/dtlyeung/Portfolio.git
